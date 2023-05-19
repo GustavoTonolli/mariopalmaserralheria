@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mario Palma</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -13,17 +14,35 @@
             <div class="container">
                 <img class="logotipo" src="/Mario_palma_serralheria-removebg-preview.png" alt="logotipo mario palma serralheria">
             </div>
+            <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+
+
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
             
-            <nav>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="#Home">Home</a>
+                <a href="#Quem somos">Quem somos</a>
+                <a href="#Produtos">Produtos</a>
+                <a href="#Contact">Contactos</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            </div>
+            <!-- <nav>
                 <ul>
                     <li>Home</li>
                     <li>Quem Somos</li>
                     <li>Produtos e serviços</li>
                     <li>Contactos</li>
                 </ul>
-            </nav>
+            </nav> -->
         </div>
     </header>
     
 </body>
+<script src="/app.js"></script>
 </html>
